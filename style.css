@@ -254,6 +254,14 @@ header {
 
 #grail {
     height: 1500px;
+    background-image: url(images/mars.jpg);
+    background-position: left;
+    margin: 0;
+    padding: 0;   
+    background-repeat: no-repeat;
+    background-position: top right;
+    margin-right: 0%;
+    margin-left: 10rem;
     
 }
 
