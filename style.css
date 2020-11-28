@@ -31,15 +31,6 @@ body::-webkit-scrollbar-thumb {
     border-radius: 10px;
 }
 
-
-
-
-.container {
-    margin-left: 10rem;
-    margin-right: 10rem;
-    width: auto;
-}
-
 .navbar {
     position: fixed;
     background-color: var(--bg-primary);
@@ -130,11 +121,17 @@ body::-webkit-scrollbar-thumb {
 }
 
 hr.solid {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    width: auto;
     border-top: 3px solid white;
     border-radius: 5px;
 }
  
 main {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    width: auto;
     padding-left: auto;
     padding-right: auto;
     /*border: 7px solid rgba(255,255,255,0.7);*/
@@ -152,6 +149,9 @@ main {
 }
   
 header {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    width: auto;
     padding-top: 10px;
     background-color: #00000000;
     height: 300px;
@@ -159,6 +159,9 @@ header {
 
 
 #home {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    width: auto;
     height: 850px;
     line-height: 15px;  
 
@@ -195,6 +198,14 @@ header {
 
 #experience {
     height: 1600px;
+    background-image: url(images/jupiter.jpg);
+    margin: 0;
+    padding: 0;   
+    background-repeat: no-repeat;
+    background-position: top right;
+    margin-right: 0%;
+    margin-left: 10rem;
+    
 }
 
 #experience p {
@@ -203,36 +214,31 @@ header {
 }
 
 #college {
-    height: 1300px;
-
-}
-
-.OSU {
-    position: relative;
-     
-}
-
-.OSU img {
-    position: absolute;
+    margin-left: 10rem;
     width: auto;
-    height: 900px;
-    opacity: 0.40;
-    filter: grayscale(100%);
-    left: auto;
-    padding-right: auto;
-    
-}
-.OSU p {
-    text-align: center;
-    width: 45%;
-    padding-top: 0;
-    padding-left: 25%;
-    padding-right: auto;
+    height: 1000px;
+    background-image: url(images/saturn.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 300rem;
     font-size: 16px;
     
 }
 
+.OSU p {
+    text-align: center;
+    
+    padding-top: 0;
+    padding-left: 25%;
+    padding-right: auto;
+    
+    
+}
+
 #methods {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    width: auto;
     height: 700px;
 
 }
@@ -243,6 +249,9 @@ header {
 }
 
 #interests {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    width: auto;
     height: 700px;
 
 
@@ -255,7 +264,6 @@ header {
 #grail {
     height: 1500px;
     background-image: url(images/mars.jpg);
-    background-position: left;
     margin: 0;
     padding: 0;   
     background-repeat: no-repeat;
