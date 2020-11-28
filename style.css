@@ -5,9 +5,9 @@ html{
 :root {
     font-size: 16px;
     --transition-speed: 600ms;
-  }
+}
   
-  body {
+body {
     color: black;
     background-color: rgb(0, 0, 0);
     margin: 0;
@@ -15,48 +15,39 @@ html{
     background-image: url(images/GSFC_20171208_Archive_e001982_orig.jpg);   
     background-repeat: no-repeat;
     background-position: top right;
-  }
+}
   
-  body::-webkit-scrollbar {
+body::-webkit-scrollbar {
     width: 10px;
-  }
+}
   
-  body::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track {
     background: #000000;
  
-  }
+}
   
-  body::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
     background: #646464;
     border-radius: 10px;
-  }
-  #home img {
-    filter: grayscale(100%);
-    padding-left: 20%;
-  }
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-  }
+}
 
-  .container {
+
+
+
+.container {
     margin-left: 10rem;
     margin-right: 10rem;
     width: auto;
- 
+}
 
-  }
-
-  .navbar {
+.navbar {
     position: fixed;
     background-color: var(--bg-primary);
     transition: width 600ms ease;
     overflow: auto;
-  }
+}
   
-  .navbar-nav {
+.navbar-nav {
     list-style: none;
     padding: 10px;
     margin: 0;
@@ -64,18 +55,18 @@ html{
     flex-direction: column;
     align-items: center;
     
-  }
+}
   
-  .nav-item {
+.nav-item {
     width: 100%;
     padding-top: 5px;
-  }
+}
   
-  .nav-item:last-child {
+.nav-item:last-child {
     margin-top: auto;
-  }
+}
   
-  .nav-link {
+.nav-link {
     display: flex;
     align-items: center;
     height: 50px;
@@ -83,54 +74,48 @@ html{
     text-decoration: none;
     filter: grayscale(100%) opacity(0.7);
     transition: var(--transition-speed);
-  }
-  .nav-link:hover {
+}
+.nav-link:hover {
     filter: grayscale(0%) opacity(1);
     background: var(--bg-secondary);
     color: #303030;
-  }
+}
   
-  .link-text {
+.link-text {
     display: none;
     margin-left: 1rem;
-  }
+}
 
-  /*colors for icons - for some reason when you reload page, the SVG has pink transitions for some*/
-  .fa-primary {
+.fa-primary {
     color: #303030;
-  }
+}
   
-  .fa-secondary {
+.fa-secondary {
     color: #414141;
-  }
+}
   
-  .fa-primary,
-  .fa-secondary {
-    transition: var(--transition-speed);
-  }  
-
-  .navbar {
-    top: 5rem;
-    width: 5rem;
+.navbar {
+    top: 7rem;
+    width: 4rem;
     height: 100vh;
-  }
+}
 
-  .navbar:hover {
+.navbar:hover {
     width: 7rem;
-  }
+}
 
-  .navbar:hover .link-text {
+.navbar:hover .link-text {
     display: inline;
     text-decoration: none;
-  }
+}
 
-  .navbar:hover .logo-text
+.navbar:hover .logo-text
   {
     text-align: center;
     text-decoration: none;
-  }
+}
   
-  .abscenter {
+.abscenter {
     max-width: 100%;
     max-height: 100%;
     bottom: 0;
@@ -147,30 +132,62 @@ html{
 hr.solid {
     border-top: 3px solid white;
     border-radius: 5px;
-  }
+}
  
-  main {
+main {
     padding-left: auto;
     padding-right: auto;
     /*border: 7px solid rgba(255,255,255,0.7);*/
-    text-align: center;
-    
-  }
-  
+    text-align: center;    
+}
+
+.title {
+    transition: 1.5s all cubic-bezier(0.23, 1, 0.32, 1);
+    letter-spacing: 2px;
+    font-size: 11px;
+    position: absolute;
+    left: 0px;
+    font-family: "Lucida Sans Typewriter","Lucida Console","Bitstream Vera Sans Mono",monospace;
+    color: white
+}
   
 header {
     padding-top: 10px;
     background-color: #00000000;
-    display: flex;
-
+    height: 300px;
 }
 
 
 #home {
-    height: 800px;
+    height: 850px;
     line-height: 15px;  
 
 }
+
+.ME {
+    position: relative;
+}
+
+.ME img {
+    position: absolute;
+    padding-left: 15%;
+    width: auto;
+    height: 750px;
+    opacity: 0.60;
+    filter: grayscale(100%);
+    padding-right: auto;
+    
+}
+.ME p {
+    text-align: center;
+    width: 45%;
+    padding-top: 35%;
+    padding-left: 15%;
+    padding-right: auto;
+    font-size: 14px;
+    
+} 
+
 
 .imglinkcenter{
     text-align: center;
@@ -186,31 +203,33 @@ header {
 }
 
 #college {
-    height: 950px;
+    height: 1300px;
 
 }
 
 .OSU {
     position: relative;
-    overflow: hidden;
- 
+     
 }
 
 .OSU img {
     position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 920px;
-    opacity: 0.35;
-    filter: grayscale(75%);
+    width: auto;
+    height: 900px;
+    opacity: 0.40;
+    filter: grayscale(100%);
+    left: auto;
+    padding-right: auto;
     
 }
-
-#college p {
-    text-align: left;
+.OSU p {
+    text-align: center;
+    width: 45%;
+    padding-top: 0;
+    padding-left: 25%;
+    padding-right: auto;
     font-size: 16px;
-    padding-left: 1rem;
+    
 }
 
 #methods {
@@ -234,20 +253,18 @@ header {
 }
 
 #grail {
-    height: 700px;
-
-
+    height: 1500px;
     
 }
 
 #grail p {
-    text-align: left;
+    text-align: center;
     font-size: 16px;
 }
 
 #grail img{
-    position: right;
-    height: 500px;
+    padding-left: 25%;
+    height: 900px;
 }
 
 footer {
@@ -256,15 +273,8 @@ footer {
     display: flex;
 }
 
-.title {
-    transition: 1.5s all cubic-bezier(0.23, 1, 0.32, 1);
-    letter-spacing: 2px;
-    font-size: 11px;
-    position: absolute;
-    left: 0px;
-    font-family: "Lucida Sans Typewriter","Lucida Console","Bitstream Vera Sans Mono",monospace;
-    color: white
-}
+
+
 
 
 h1 {
@@ -280,15 +290,25 @@ p {
     font-size: 12px;
     /*color: #303030;*/
     color: white;
-    line-height: 26px;
+    line-height: 24px;
     font-family: "Lucida Sans Typewriter","Lucida Console","Bitstream Vera Sans Mono",monospace;
     text-align: center;
-    width: 646px;
+    width: 45%;
     padding-top: auto;
-    padding-left: auto;
+    padding-left: 25%;
     padding-right: auto;
 }
 
+a {
+    font-weight: 300;
+    font-size: 12px;
+    color: white;
+    line-height: 26px;
+    font-family: "Lucida Sans Typewriter","Lucida Console","Bitstream Vera Sans Mono",monospace;
+    text-align: center;
+    width: 45%;
+    padding-left: 25%;
+}
 
 footer p {
     text-decoration: none;
@@ -297,11 +317,13 @@ footer p {
     font-size: 10px;
     padding-top: 25px;
     padding-bottom: 25px;
+    position: left;
   
 }
+
 footer a {
     text-decoration: none;
-    text-align: center;
+    position: center;
     color: white;
     font-size: 10px;
     padding-top: 25px;
