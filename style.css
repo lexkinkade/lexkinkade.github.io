@@ -95,13 +95,13 @@ html{
     margin-left: 1rem;
   }
 
-  
+  /*colors for icons - for some reason when you reload page, the SVG has pink transitions for some*/
   .fa-primary {
-    color: #3a3a3a;
+    color: #303030;
   }
   
   .fa-secondary {
-    color: #303030;
+    color: #414141;
   }
   
   .fa-primary,
@@ -143,6 +143,11 @@ html{
     -o-object-fit: contain;
     object-fit: contain;
 }
+
+hr.solid {
+    border-top: 3px solid white;
+    border-radius: 5px;
+  }
  
   main {
     padding-left: auto;
@@ -171,64 +176,79 @@ header {
     text-align: center;
 }
 
-
 #experience {
-    height: 1500px;
-    
-    
+    height: 1600px;
 }
-
-hr.solid {
-    border-top: 3px solid #bbb;
-  }
 
 #experience p {
     text-align: left;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 #college {
-    height: 1500px;
+    height: 950px;
 
- 
-    background-image: url(images/ohiostateuniversityoval.jpeg);
-    background-size: 100%;
-    background-repeat: none;
-    background-position: center; 
+}
+
+.OSU {
+    position: relative;
     overflow: hidden;
+ 
+}
+
+.OSU img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 920px;
+    opacity: 0.35;
+    filter: grayscale(75%);
     
 }
 
 #college p {
     text-align: left;
-    font-size: 14px;
+    font-size: 16px;
     padding-left: 1rem;
 }
 
 #methods {
     height: 700px;
-    background: teal;
 
- 
-    
+}
+
+#methods p {
+    text-align: left;
+    font-size: 14px;
 }
 
 #interests {
     height: 700px;
-    background: green;
 
-    width: 100%;
-    
+
+}
+#interests p {
+    text-align: left;
+    font-size: 14px;
 }
 
 #grail {
     height: 700px;
-    background: yellow;
+
 
     
 }
 
+#grail p {
+    text-align: left;
+    font-size: 16px;
+}
 
+#grail img{
+    position: right;
+    height: 500px;
+}
 
 footer {
     transition: 1.5s all cubic-bezier(0.23, 1, 0.32, 1);
@@ -271,6 +291,15 @@ p {
 
 
 footer p {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  
+}
+footer a {
     text-decoration: none;
     text-align: center;
     color: white;
