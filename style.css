@@ -36,12 +36,13 @@ body::-webkit-scrollbar-thumb {
     background-color: var(--bg-primary);
     transition: width 600ms ease;
     overflow: auto;
+    padding-top: 1%;
 }
   
 .navbar-nav {
     list-style: none;
     padding: 10px;
-    margin: 0;
+    margin: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,7 +51,7 @@ body::-webkit-scrollbar-thumb {
   
 .nav-item {
     width: 100%;
-    padding-top: 5px;
+    padding-top: 10px;
 }
   
 .nav-item:last-child {
@@ -154,7 +155,7 @@ header {
     width: auto;
     padding-top: 10px;
     background-color: #00000000;
-    height: 300px;
+
 }
 
 .motto h1 {
@@ -168,8 +169,6 @@ header {
 #home {
     margin-left: 10rem;
     margin-right: 10rem;
-    width: auto;
-    height: 950px;
     line-height: 15px;  
 
 }
@@ -181,19 +180,15 @@ header {
 .ME img {
     position: absolute;
     padding-left: 15%;
-    width: auto;
-    height: 600px;
     opacity: 0.60;
     filter: grayscale(100%);
-    padding-right: auto;
     
 }
 .ME p {
     text-align: center;
     width: 45%;
-    padding-top: 30%;
+    padding-top: 31%;
     padding-left: 15%;
-    padding-right: auto;
     font-size: 14px;
     
 } 
@@ -204,7 +199,6 @@ header {
 }
 
 #experience {
-    height: 1600px;
     background-image: url(images/jupiter.jpg);
     margin: 0;
     padding: 0;   
@@ -222,8 +216,6 @@ header {
 
 #college {
     margin-left: 10rem;
-    width: auto;
-    height: 1000px;
     background-image: url(images/saturn.jpg);
     background-repeat: no-repeat;
     background-position: top right;
@@ -234,10 +226,8 @@ header {
 
 .OSU p {
     text-align: center;
-    
     padding-top: 0;
     padding-left: 25%;
-    padding-right: auto;
     
     
 }
@@ -245,8 +235,6 @@ header {
 #methods {
     margin-left: 10rem;
     margin-right: 10rem;
-    width: auto;
-    height: 700px;
 
 }
 
@@ -258,8 +246,6 @@ header {
 #interests {
     margin-left: 10rem;
     margin-right: 10rem;
-    width: auto;
-    height: 700px;
 
 
 }
@@ -269,7 +255,6 @@ header {
 }
 
 #grail {
-    height: 1500px;
     background-image: url(images/mars.jpg);
     margin: 0;
     padding: 0;   
