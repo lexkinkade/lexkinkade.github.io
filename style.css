@@ -107,19 +107,6 @@ body::-webkit-scrollbar-thumb {
     text-decoration: none;
 }
   
-.abscenter {
-    max-width: 100%;
-    max-height: 100%;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    overflow: auto;
-    position: fixed;
-    right: 0;
-    top: 0;
-    -o-object-fit: contain;
-    object-fit: contain;
-}
 
 hr.solid {
     margin-left: 10rem;
@@ -128,6 +115,7 @@ hr.solid {
     border-top: 3px solid white;
     border-radius: 5px;
 }
+
  
 main {
     margin-left: 10rem;
@@ -167,7 +155,7 @@ header {
 
 
 #home {
-   
+    transition: 1.5s all cubic-bezier(0.23, 1, 0.32, 1);
     line-height: 15px;  
 
 }
@@ -185,7 +173,7 @@ header {
 }
 .ME p {
     text-align: center;
-    padding-top: 31%;
+    padding-top: 40%;
     padding-left: 23%;
     font-size: 14px;
     
@@ -202,6 +190,7 @@ header {
 }
 
 #experience {
+    transition: 1.5s all cubic-bezier(0.23, 1, 0.32, 1);
     background-image: url(images/jupiter.jpg);
     margin: 0;
     padding: 0;   
@@ -223,16 +212,9 @@ header {
     background-image: url(images/saturn.jpg);
     background-repeat: no-repeat;
     background-position: top right;
-    background-size: 300rem;
+    background-size: 250rem;
     font-size: 16px;
-    
-}
-
-.OSU p {
-    text-align: center;
-    padding-top: 0;
-    padding-left: 25%;
-    
+    line-height: 10px;
     
 }
 
