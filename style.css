@@ -167,8 +167,7 @@ header {
 
 
 #home {
-    margin-left: 10rem;
-    margin-right: 10rem;
+   
     line-height: 15px;  
 
 }
@@ -186,13 +185,17 @@ header {
 }
 .ME p {
     text-align: center;
-    width: 45%;
     padding-top: 31%;
-    padding-left: 15%;
+    padding-left: 23%;
     font-size: 14px;
     
 } 
-
+.ME a {
+    text-align: center;
+    padding-left: 40%;
+    font-size: 14px;
+    
+} 
 
 .imglinkcenter{
     text-align: center;
@@ -206,6 +209,7 @@ header {
     background-position: top right;
     margin-right: 0%;
     margin-left: 10rem;
+
     
 }
 
@@ -271,7 +275,7 @@ header {
 }
 
 #grail img{
-    padding-left: 25%;
+    padding-left: 40%;
     height: 900px;
 }
 
