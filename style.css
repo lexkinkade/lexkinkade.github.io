@@ -180,7 +180,7 @@ header {
     
 } 
 .ME a {
-    text-align: center;
+    text-align: RIGHT;
     padding-left: 40%;
     font-size: 14px;
     
@@ -220,25 +220,41 @@ header {
 }
 
 #methods {
+    transition: 1.5s all cubic-bezier(0.23, 1, 0.32, 1);
+    margin: 0;
+    padding: 0;   
+    
+    background-repeat: no-repeat;
+    background-position: top right;
+    margin-right: 0%;
     margin-left: 10rem;
-    margin-right: 10rem;
+    background-size: 175rem;
+ 
+ 
 
 }
 
 #methods p {
     text-align: left;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 #interests {
+    transition: 1.5s all cubic-bezier(0.23, 1, 0.32, 1);
+    margin: 0;
+    padding: 0;   
+    background-image: url(images/jup2.jpg);
+    background-repeat: no-repeat;
+    background-position:  right;
+    background-size: cover;
+    margin-right: 0%;
     margin-left: 10rem;
-    margin-right: 10rem;
-
-
 }
+
+
 #interests p {
     text-align: left;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 #grail {
@@ -318,9 +334,7 @@ footer p {
 }
 
 footer a {
-    text-decoration: none;
-    position: center;
-    color: white;
+    position: left;
     font-size: 10px;
     padding-top: 25px;
     padding-bottom: 25px;
