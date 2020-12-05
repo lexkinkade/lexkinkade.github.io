@@ -12,10 +12,6 @@ body {
     background-color: rgb(0, 0, 0);
     margin: 0;
     padding: 0;
-    background-image: url(images/GSFC_20171208_Archive_e001982_orig.jpg); 
-    background-size: 125rem;  
-    background-repeat: no-repeat;
-    background-position: top right;
 }
   
 body::-webkit-scrollbar {
@@ -133,37 +129,32 @@ main {
     letter-spacing: 2px;
     font-size: 11px;
     position: absolute;
-    left: 0px;
+    left: 10px;
     font-family: "Lucida Sans Typewriter","Lucida Console","Bitstream Vera Sans Mono",monospace;
-    color: white
+    color: rgb(0, 0, 0)
+    
 }
   
 header {
-    margin-left: 10rem;
-    margin-right: 10rem;
-    width: auto;
+    background-image: url(images/01.jpg);
+    height: 210vh;
+    background-size: cover;
     padding-top: 10px;
-    background-color: #00000000;
-
-}
-
-.motto h1 {
-    font-family: "Lucida Sans Typewriter","Lucida Console","Bitstream Vera Sans Mono",monospace;
-    text-align: center;
-    padding-left: 25%;
-    font-size: 14px;
+    background-color: #ffffff;
 }
 
 
 #home {
     transition: 1.5s all cubic-bezier(0.23, 1, 0.32, 1);
     line-height: 15px;  
+    background-image: url(images/GSFC_20171208_Archive_e001982_orig.jpg); 
+    background-size: 125rem;  
+    background-repeat: no-repeat;
+    background-position: top right;
 
 }
 
-.ME {
-    position: relative;
-}
+
 
 .ME img {
     position: absolute;
@@ -175,20 +166,18 @@ header {
 .ME p {
     text-align: center;
     padding-top: 40%;
-    padding-left: 23%;
     font-size: 14px;
+    margin-right: 10rem;
+    margin-left: 10rem;
     
 } 
 .ME a {
-    text-align: RIGHT;
-    padding-left: 40%;
-    font-size: 14px;
-    
-} 
-
-.imglinkcenter{
     text-align: center;
-}
+    font-size: 14px;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding-left: 40%;
+} 
 
 #experience {
     transition: 1.5s all cubic-bezier(0.23, 1, 0.32, 1);
@@ -197,8 +186,8 @@ header {
     padding: 0;   
     background-repeat: no-repeat;
     background-position: top right;
-    margin-right: 0%;
     margin-left: 10rem;
+    
 
     
 }
@@ -206,6 +195,8 @@ header {
 #experience p {
     text-align: left;
     font-size: 16px;
+    margin-right: 25rem;
+    margin-left: 10rem;
 }
 
 #college {
@@ -223,20 +214,18 @@ header {
     transition: 1.5s all cubic-bezier(0.23, 1, 0.32, 1);
     margin: 0;
     padding: 0;   
-    
     background-repeat: no-repeat;
     background-position: top right;
     margin-right: 0%;
     margin-left: 10rem;
     background-size: 175rem;
- 
- 
-
 }
 
 #methods p {
     text-align: left;
     font-size: 16px;
+    margin-left: 10rem;
+    margin-right: 10rem;
 }
 
 #interests {
@@ -255,6 +244,8 @@ header {
 #interests p {
     text-align: left;
     font-size: 16px;
+    margin-left: 10rem;
+    margin-right: 10rem;
 }
 
 #grail {
@@ -264,7 +255,6 @@ header {
     background-repeat: no-repeat;
     background-position: top right;
     background-size: 175rem;
-    margin-right: 0%;
     margin-left: 10rem;
     
 }
@@ -272,6 +262,7 @@ header {
 #grail p {
     text-align: center;
     font-size: 16px;
+    margin-right: 10rem;
 }
 
 #grail img{
@@ -281,9 +272,15 @@ header {
 
 footer {
     transition: 1.5s all cubic-bezier(0.23, 1, 0.32, 1);
-    background-color: #ffffff44;   
-    display: flex;
+    background-color: #000000;   
+    background-image: url(images/blackandwhite.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 10px;
+
 }
+
 
 
 
@@ -305,10 +302,7 @@ p {
     line-height: 24px;
     font-family: "Lucida Sans Typewriter","Lucida Console","Bitstream Vera Sans Mono",monospace;
     text-align: center;
-    width: 45%;
-    padding-top: auto;
-    padding-left: 25%;
-    padding-right: auto;
+
 }
 
 a {
@@ -330,6 +324,7 @@ footer p {
     padding-top: 25px;
     padding-bottom: 25px;
     position: left;
+
   
 }
 
