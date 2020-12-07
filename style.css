@@ -131,16 +131,18 @@ main {
     position: absolute;
     left: 10px;
     font-family: "Lucida Sans Typewriter","Lucida Console","Bitstream Vera Sans Mono",monospace;
-    color: rgb(0, 0, 0)
+    color: rgb(255, 255, 255)
     
 }
   
 header {
-    background-image: url(images/01.jpg);
-    height: 210vh;
-    background-size: cover;
+    background-image: url(images/Logo.png);
+    height: 100vh;
+    background-size: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
     padding-top: 10px;
-    background-color: #ffffff;
+    background-color: rgb(136, 138, 143);
 }
 
 
@@ -195,8 +197,9 @@ header {
 #experience p {
     text-align: left;
     font-size: 16px;
-    margin-right: 25rem;
+    margin-right: 10rem;
     margin-left: 10rem;
+    width: 50%;
 }
 
 #college {
@@ -274,7 +277,8 @@ footer {
     transition: 1.5s all cubic-bezier(0.23, 1, 0.32, 1);
     background-color: #000000;   
     background-image: url(images/blackandwhite.jpg);
-    height: 100vh;
+    background-size: 20%;
+    height: 50vh;
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 10px;

@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content = "ie=edge">
     <title>You can call me Lex</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" media="only screen and (max-width: 600px)" href="mobile.css"/>
+    <link rel="stylesheet" media="only screen and (min-width: 601px)" href="style.css" />
 </head>
 
 <body>
@@ -132,27 +134,19 @@
     </nav>
 
         <header>
-            <div class="title">Robotic & Propulsion Engineer <br> 
-      
+            <div class="title">Robotic & Propulsion Engineer <br> <br>
 
-              <a href="https://www.linkedin.com/in/alexanderkinkade/" target="_blank"><img src="images/linkedin-3-5122.PNG"  alt="LINKEDIN" style = "height: 50px;">
-              </a>
-              
-              
+              <a href="https://www.linkedin.com/in/alexanderkinkade/" target="_blank"><img src="images/linkedin-3-512.PNG"  alt="LINKEDIN" style = "height: 42px;">
+              </a>            
 
             </div>
-
-          <h1>ALEXANDER
-                <br>
-                <br>
-                KINKADE
                 
-          </h1>
+
 
         </header>
     
         <div id = "home">
-          <div class="ME">
+          <div class="ME" data-aos="fade-up">
             <img src="images/040.jpg" alt="Lex Kinkade Portrait" style="margin-left: 16%;max-width: 30%; height: auto;">
             
             <p>In 2017, Alexander (Lex) Kinkade graduated from Wright State University, where he majored in Electrical Engineering. He currently works for Honeywell as a Software Controls Engineer; where he programs conveyor and robots to automate industrial supply chain buildings for companies. During this time he has been honored with multiple internal awards by management and department executives for his contributions. He emphasizes how critical it is to "do it right the first time, or don't do it at all." Something that his father instilled in him early on in his life.  
@@ -175,9 +169,9 @@
           </div>
         </div>
 
-        <hr class="solid">
+        <hr class="solid" data-aos="zoom-in">
 
-        <div id = "experience">
+        <div id = "experience" data-aos="fade-up">
           <br>
             <h1> PROFESSIONAL </h1>  <h1>EXPERIENCE</h1>
             <p><b>Honeywell</b></p>
@@ -213,9 +207,9 @@
             <p>As an Intern, Lex performed Unit Testing and Validation on software for customer coding standards/MISRA C standards. He spent most of his time helping Engineers in the Lab do hardware and software testing. He occaisionally worked on his SMD soldering within the lab on production ECUs and tested them with an Oscilloscope to verify singals and failsafes. Over the two years of work, he became the SME on Unit Testing Tools, teaching senior engineers through group/one on one meetings as an intern.
         </div>
         
-        <hr class="solid">
+        <hr class="solid" data-aos="zoom-in">
 
-        <div id = "college">
+        <div id = "college" data-aos="fade-up">
             <br>
             <h1>COLLEGIATE</h1>
             <h1>EDUCATION</h1>
@@ -247,31 +241,32 @@
         
         <hr class="solid">
 
-        <div id = "methods">
+        <div id = "methods" data-aos="zoom-in">
           <br>
             <h1>METHODOLOGIES</h1>
-            <p>DO IT RIGHT THE FIRST TIME OR DONT DO IT AT ALL <br>
-              DONT TAKE YOURSELF TOO SERIOUSLY <br>
-              WIN AS A TEAM VS AS AN INDIVIDUAL <br>
-              IF YOU CAN'T TEACH IT, YOU HAVEN'T YET MASTERED IT <BR>
-              
+            <p>
+              My personal career objectives are to take initiative with all assigned projects, maintain my professional integrity, and hone in on precise results. As each day passes, I aim to be a better person than I was the day prior in work, and in life. I aim to maximize my leadership potential, communication and problem solving skills. I value punctuality and adaptability in work. It is important to be flexible to fast changing schedules in a dynamic and changing tech industry.  <br><br>
 
 
-         
+              <b>Worplace Philosophies</b><br>
+              It is important that the workplace prioritizes quality designs and products, over profits. While profit is important, making sure a company is the best at what they do and delivering quality results are more important. A culture with profits as the main metric for corporate success will eventually be phased out by a more innovative company.
+              People should feel like they can talk openly to others and feel like they belong in the workplace. I believe that what debilitates most companies is a culture with high turnover rates. Workers should come first, and their needs are to be the main priority.
+
+
             </p>
         </div>
 
-        <hr class="solid">
+        <hr class="solid" data-aos="zoom-in">
 
-        <div id = "interests">
+        <div id = "interests" data-aos="fade-up">
        
-            <h1><br><br> SOCIETIES & <br><br>INTERESTS</h1>
+            <h1> SOCIETIES & <br><br>INTERESTS</h1>
             <P><b>The Planetary Society</b></P>
             <P>Mariner Member</P>
             <p>The planetary was founded by Carl Sagan, and raises money towards planetary science and NASA Funding.</p>
             <P><b>American Institute of Aerospace and Astronautics</b></P>
             <P>Member</P>
-            <p>AIAA is a Professional society for networking and discussion among the Astronautical and Aeronautical discipline</p>
+            <p>AIAA is a Professional society for networking and discussion among the Astronautical and Aeronautical discipline.</p>
             
             <p style="font-size: 45px; line-height: 0;"><b>HOBBIES</b></p>
 
@@ -281,9 +276,9 @@
             <P><b>Additive Manufacturing</b></P>
         </div>
 
-        <hr class="solid">
+        <hr class="solid" data-aos="zoom-in">
   
-        <div id = "grail">
+        <div id = "grail" data-aos="fade-up">
           <br>
             <h1> THE HOLY GRAIL</h1>
 
@@ -296,11 +291,23 @@
             <p><i>-Carl Sagan, Cosmos</i></p>
         </div>
 
+        <hr class="solid" data-aos="zoom-in">
+
       <footer>
           <p>Site developed by Alexander B. Kinkade</p> 
 
       </footer>   
     
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 400,
+      duration: 1000,
+      delay: 25
+      }
+    );
+  </script>
+
 </body>
 
 
