@@ -217,11 +217,12 @@ header {
     transition: 1.5s all cubic-bezier(0.23, 1, 0.32, 1);
     margin: 0;
     padding: 0;   
+    background-image: url(images/pluto.jpg);
     background-repeat: no-repeat;
-    background-position: top right;
+    background-position: right;
     margin-right: 0%;
     margin-left: 10rem;
-    background-size: 175rem;
+    background-size: 75rem;
 }
 
 #methods p {
