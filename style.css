@@ -82,28 +82,60 @@ body::-webkit-scrollbar-thumb {
 .fa-secondary {
     color: #414141;
 }
+
+
+/* Large screens */
+@media only screen and (min-width: 600px) {
+    .navbar {
+      top: 7rem;
+      width: 4rem;
+      height: 100vh;
+    }
   
-.navbar {
-    top: 7rem;
-    width: 4rem;
-    height: 100vh;
-}
-
-.navbar:hover {
-    width: 7rem;
-}
-
-.navbar:hover .link-text {
-    display: inline;
-    text-decoration: none;
-}
-
-.navbar:hover .logo-text
-  {
-    text-align: center;
-    text-decoration: none;
-}
+    .navbar:hover {
+      width: 7rem;
+    }
   
+    .navbar:hover .link-text {
+      display: inline;
+    }
+  
+    .navbar:hover .logo svg
+    {
+      margin-left: 11rem;
+    }
+  
+    .navbar:hover .logo-text
+    {
+      left: 0px;
+    }
+  }
+  
+  
+/* Small screens */
+@media only screen and (max-width: 600px) {
+    .navbar {
+      top: 0;
+      width: 3rem;
+      height: 100vw;
+    }
+  
+    .logo {
+      display: none;
+    }
+  
+    .navbar-nav {
+      flex-direction: inline;
+    }
+  
+    .nav-link {
+      justify-content: center;
+    }
+  
+    main {
+      margin: 0;
+    }
+  }
 
 hr.solid {
     margin-left: 10rem;
