@@ -206,11 +206,8 @@ header {
     
 } 
 .ME a {
-    text-align: center;
     font-size: 14px;
-    margin-left: 10rem;
-    margin-right: 10rem;
-    padding-left: 40%;
+    padding-left: 0;
 } 
 
 #experience {
@@ -318,11 +315,6 @@ footer {
 
 }
 
-
-
-
-
-
 h1 {
     font-size: 110px;
     line-height: 60px;
@@ -371,4 +363,280 @@ footer a {
     padding-top: 25px;
     padding-bottom: 25px;
   
+}
+
+
+/* ========== Media Queries For Responsiveness ========== */
+@media screen and (max-width:1200px) {
+	
+	/* Header Section Responsiveness */
+	h1{
+		line-height:52px;
+		text-align:left;
+		font-size:82px;
+	}
+	
+	#experience p{
+		margin-left: 7rem;
+		width: 55%;
+	}
+	
+	#methods p {
+		margin-left: 7rem;
+	}
+	
+	#interests p {
+		margin-left: 7rem;
+	}
+	
+}
+
+@media screen and (max-width:991px) {
+	
+	/* Header Section Responsiveness */
+	h1{
+		line-height:38px;
+		font-size:60px;
+	}
+	
+	#experience p{
+		margin-left: 5rem;
+		margin-right: 0;
+		width: 70%;
+	}
+	
+	#methods p {
+		margin-left: 5rem;
+		margin-right:5rem;
+	}
+	
+	#interests p {
+		margin-left: 5rem;
+		margin-right:5rem;
+	}
+	
+	#grail p {
+    	margin-right: 7rem;
+	}
+	
+}
+
+@media screen and (max-width:767px) {
+	
+	/* Header Section Responsiveness */
+	header{
+		background-size:30%;
+	}
+	
+	.ME{
+		text-align:center;
+		display:block;
+	}
+	
+	.ME img{
+		max-width:50% !important;
+		margin:1rem !important;
+		position:relative;
+		opacity:.75;
+		padding:0;
+	}
+	
+	.ME p{
+		margin:0 7rem;
+		padding:0;
+	}
+	
+	h1{
+		line-height:32px;
+		font-size:52px;
+	}
+	
+	#experience,
+	#college,
+	#methods,
+	#interests,
+	#grail{
+		margin-left:7rem;
+	}
+	
+	#experience p{
+		margin-left: 3rem;
+		margin-right: 3rem;
+		width: 80%;
+	}
+	
+	#methods p {
+		margin-left: 3rem;
+		margin-right:3rem;
+	}
+	
+	#interests p {
+		margin-left: 3rem;
+		margin-right:3rem;
+	}
+	
+	#grail{
+		text-align:center;
+	}
+	
+	#grail p{
+		margin-right:3rem;
+	}
+	
+	#grail img{
+		max-width:40% !important;
+		padding:0;
+	}
+	
+	footer{
+		background-position:center bottom;
+		margin-bottom:20px;
+		height:170px;
+	}
+	
+	footer p{
+		padding:0;
+	}
+	
+}
+
+@media screen and (max-width:600px) {
+	
+	.title{
+		letter-spacing:1.5px;
+		margin-left:30px;
+	}
+	
+	.title img{
+		height:32px !important;
+	}
+	
+	.ME img{
+		max-width:60% !important;
+	}
+	
+	.ME p{
+		line-height:1.7;
+		margin:0 4rem;
+	}
+	
+	hr.solid {
+		border-top: 2px solid white;
+		margin-right: 8rem;
+		margin-left: 8rem;
+	}
+	
+	h1{
+		line-height:22px;
+		font-size:36px;
+	}
+	
+	#experience,
+	#college,
+	#methods,
+	#interests,
+	#grail{
+		margin-left:5rem;
+	}
+	
+	#experience p{
+		margin-right: 1rem;
+		margin-left: 1rem;
+		line-height:1.7;
+		font-size:14px;
+		width: 80%;
+	}
+	
+	#methods p {
+		margin-left: 1rem;
+		margin-right:1rem;
+		line-height:1.7;
+		font-size:14px;
+	}
+	
+	#interests p {
+		margin-left: 1rem;
+		margin-right:1rem;
+		line-height:1.7;
+		font-size:14px;
+	}
+	
+	#interests p.hobbies{
+		font-size:24px !important;
+	}
+	
+	#grail p{
+		margin-right:1rem;
+		line-height:1.7;
+		font-size:14px;
+	}
+	
+	#grail img{
+		max-width:50% !important;
+	}
+	
+	footer{
+		background-size: 25%;
+		margin-bottom:15px;
+		height:150px;
+	}
+	
+	footer p{
+		padding:0;
+	}
+	
+}
+
+@media screen and (max-width:450px) {
+
+	header{
+		background-size:40%;
+	}
+	
+	.ME p{
+		line-height:1.5;
+		font-size:13px;
+		margin:0 3rem;
+	}
+	
+	hr.solid {
+		margin-right: 5rem;
+		margin-left: 5rem;
+	}
+	
+	h1{
+		line-height:20px;
+		font-size:30px;
+	}
+	
+	#experience,
+	#college,
+	#methods,
+	#interests,
+	#grail{
+		margin-left:4rem;
+	}
+	
+	#experience p,
+	#methods p,
+	#interests p,
+	#grail p{
+		margin-right: .5rem;
+		margin-left: .5rem;
+		line-height:1.5;
+		font-size:13px;
+		width: 95%;
+	}
+	
+	#college p{
+		line-height:1.7;
+	}
+	
+	footer {
+		background-size: 30%;
+		margin-bottom: 15px;
+		padding-top:0;
+		height: 140px;
+	}
+	
 }
